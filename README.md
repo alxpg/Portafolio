@@ -1,3 +1,6 @@
+# Portafolio
+Pagina acerca de mi preparacion como desarrollador web
+
 # Mi Portafolio Personal
 
 Portafolio web personal desarrollado con HTML5, CSS3 y Bootstrap 4.
