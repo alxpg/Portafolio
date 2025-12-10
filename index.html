@@ -133,7 +133,7 @@
         </div>
     </section>
 
-    <!-- Sección Proyectos con Carrusel -->
+    <!-- Sección Proyectos y practicas con Carrusel -->
     <section id="proyectos" class="py-5 bg-light">
         <div class="container">
             <h2 class="section-title">Proyectos Destacados</h2>
@@ -145,6 +145,7 @@
                     <button type="button" data-bs-target="#proyectosCarousel" data-bs-slide-to="0" class="active"></button>
                     <button type="button" data-bs-target="#proyectosCarousel" data-bs-slide-to="1"></button>
                     <button type="button" data-bs-target="#proyectosCarousel" data-bs-slide-to="2"></button>
+                    <button type="button" data-bs-target="#proyectosCarousel" data-bs-slide-to="3"></button>
                 </div>
                 <div class="carousel-inner rounded">
                     <div class="carousel-item active">
@@ -170,13 +171,23 @@
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80" class="d-block w-100" alt="Proyecto App Móvil">
+                        <img src="./src/img/Sneakers.png" class="d-block w-100" alt="Proyecto App Móvil">
                         <div class="carousel-caption d-none d-md-block">
-                            <h5>Aplicación de Gestión de Tareas</h5>
-                            <p>Aplicación web progresiva (PWA) para gestión de proyectos con funcionalidad offline.</p>
-                            <span class="badge bg-primary me-1">PWA</span>
-                            <span class="badge bg-primary me-1">Service Workers</span>
-                            <span class="badge bg-primary">IndexedDB</span>
+                            <h5>Landing Page de Tenis</h5>
+                            <p>Práctica de un sitio web de venta de tenis Nike</p>
+                            <span class="badge bg-primary me-1">HTML</span>
+                            <span class="badge bg-primary me-1">CSS</span>
+                            <span class="badge bg-primary">JavaScript</span>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./src/img/Store.png" class="d-block w-100" alt="Proyecto App Móvil">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Landing Page de venta de tecnología</h5>
+                            <p>Práctica de un sitio web de venta de producto para computadoras</p>
+                            <span class="badge bg-primary me-1">HTML</span>
+                            <span class="badge bg-primary me-1">CSS</span>
+                            <span class="badge bg-primary">JavaScript</span>
                         </div>
                     </div>
                 </div>
@@ -188,63 +199,12 @@
                 </button>
             </div>
             
-            <!-- Más proyectos en tarjetas -->
-            <div class="row mt-5">
-                <div class="col-md-4 mb-4">
-                    <div class="card h-100">
-                        <div class="card-body">
-                            <i class="bi bi-shop display-6 text-primary mb-3"></i>
-                            <h5 class="card-title">Landing Page Corporativa</h5>
-                            <p class="card-text">Diseño y desarrollo de página de aterrizaje responsiva para empresa de tecnología.</p>
-                            <div class="mb-3">
-                                <span class="badge bg-secondary">HTML5</span>
-                                <span class="badge bg-secondary">Bootstrap</span>
-                                <span class="badge bg-secondary">JavaScript</span>
-                            </div>
-                            <a href="#" class="btn btn-outline-primary">Ver detalles</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 mb-4">
-                    <div class="card h-100">
-                        <div class="card-body">
-                            <i class="bi bi-phone display-6 text-primary mb-3"></i>
-                            <h5 class="card-title">App de Clima</h5>
-                            <p class="card-text">Aplicación web que muestra el pronóstico del tiempo utilizando una API externa.</p>
-                            <div class="mb-3">
-                                <span class="badge bg-secondary">API Integration</span>
-                                <span class="badge bg-secondary">JavaScript</span>
-                                <span class="badge bg-secondary">CSS3</span>
-                            </div>
-                            <a href="#" class="btn btn-outline-primary">Ver detalles</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 mb-4">
-                    <div class="card h-100">
-                        <div class="card-body">
-                            <i class="bi bi-chat-dots display-6 text-primary mb-3"></i>
-                            <h5 class="card-title">Sistema de Chat</h5>
-                            <p class="card-text">Aplicación de mensajería en tiempo real con WebSockets y autenticación de usuarios.</p>
-                            <div class="mb-3">
-                                <span class="badge bg-secondary">Socket.io</span>
-                                <span class="badge bg-secondary">Node.js</span>
-                                <span class="badge bg-secondary">Express</span>
-                            </div>
-                            <a href="#" class="btn btn-outline-primary">Ver detalles</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Sección Contacto con Formulario -->
+    <!-- Sección de Contactame con Formulario -->
     <section id="contacto" class="contact-section">
         <div class="container">
-            <h2 class="section-title text-center">Contacto</h2>
-            <p class="lead text-center mb-5">¿Tienes un proyecto en mente? ¡Hablemos!</p>
-            
+            <h2 class="section-title">Contacto</h2>
+            <p class="lead text-center mb-3">¿Quieres colaborar conmigo?</p>
+            <p class="lead text-center text mb-2">¡Contactame!</p>
             <div class="row justify-content-center">
                 <div class="col-lg-8">
                     <div class="card">
@@ -268,10 +228,6 @@
                                     <label for="mensaje" class="form-label">Mensaje</label>
                                     <textarea class="form-control" id="mensaje" rows="5" required></textarea>
                                 </div>
-                                <div class="mb-3 form-check">
-                                    <input type="checkbox" class="form-check-input" id="newsletter">
-                                    <label class="form-check-label" for="newsletter">Suscribirme al newsletter</label>
-                                </div>
                                 <div class="d-grid">
                                     <button type="submit" class="btn btn-primary btn-lg">
                                         <i class="bi bi-send me-2"></i>Enviar mensaje
@@ -283,17 +239,17 @@
                                 <div class="col-md-4 text-center mb-3">
                                     <i class="bi bi-geo-alt display-6 text-primary mb-3"></i>
                                     <h5>Ubicación</h5>
-                                    <p>Ciudad de México, México</p>
+                                    <p>Villahermosa, Tabasco. México</p>
                                 </div>
                                 <div class="col-md-4 text-center mb-3">
                                     <i class="bi bi-envelope display-6 text-primary mb-3"></i>
                                     <h5>Email</h5>
-                                    <p>carlos.rodriguez@email.com</p>
+                                    <p>alxpega@gmail.com</p>
                                 </div>
                                 <div class="col-md-4 text-center mb-3">
-                                    <i class="bi bi-telephone display-6 text-primary mb-3"></i>
-                                    <h5>Teléfono</h5>
-                                    <p>+52 55 1234 5678</p>
+                                    <i class="bi bi-whatsapp display-6 text-primary mb-3"></i>
+                                    <h5>Whatsapp</h5>
+                                    <p>+52 99 3225 4514</p>
                                 </div>
                             </div>
                         </div>
@@ -304,71 +260,24 @@
     </section>
 
     <!-- Footer -->
-    <footer class="py-4 text-center">
+    <footer class="mb-0 py-4 text-center">
         <div class="container">
-            <p class="mb-2">© 2023 Carlos Rodríguez. Todos los derechos reservados.</p>
-            <p class="mb-0">
-                <a href="#" class="text-white me-3"><i class="bi bi-linkedin"></i></a>
-                <a href="#" class="text-white me-3"><i class="bi bi-github"></i></a>
-                <a href="#" class="text-white me-3"><i class="bi bi-twitter"></i></a>
-                <a href="#" class="text-white"><i class="bi bi-instagram"></i></a>
+            <p class="mb-2">© 2025 ALX_Dev Todos los derechos reservados.</p>
+            <p class="mb-2">
+                <a href="https://www.linkedin.com/in/alejandro-perez-garcia-4332a2310/" class="text-white me-3"><i class="bi bi-linkedin"></i></a>
+                <a href="https://github.com/alxpg" class="text-white me-3"><i class="bi bi-github"></i></a>
+                <a href="https://wa.me/+529932254514" class="text-white me-3"><i class="bi bi-whatsapp"></i></a>
+                <a href="https://www.facebook.com/profile.php?id=61558218175238" class="text-white"><i class="bi bi-facebook"></i></a>
             </p>
         </div>
     </footer>
 
-    <!-- Bootstrap JS Bundle con Popper -->
+    <!-- Bootstrap JS-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
     
-    <!-- Script personalizado -->
-    <script>
-        // Manejo del envío del formulario
-        document.getElementById('formContacto').addEventListener('submit', function(event) {
-            event.preventDefault();
-            
-            // Aquí normalmente enviaríamos los datos a un servidor
-            alert('¡Gracias por tu mensaje! Te contactaré pronto.');
-            this.reset();
-        });
-        
-        // Smooth scrolling para enlaces de navegación
-        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function(e) {
-                e.preventDefault();
-                
-                const targetId = this.getAttribute('href');
-                if(targetId === '#') return;
-                
-                const targetElement = document.querySelector(targetId);
-                if(targetElement) {
-                    window.scrollTo({
-                        top: targetElement.offsetTop - 60,
-                        behavior: 'smooth'
-                    });
-                }
-            });
-        });
-        
-        // Cambiar clase activa en la navbar al hacer scroll
-        window.addEventListener('scroll', function() {
-            const sections = document.querySelectorAll('section');
-            const navLinks = document.querySelectorAll('.navbar-nav a');
-            
-            let current = '';
-            sections.forEach(section => {
-                const sectionTop = section.offsetTop - 70;
-                const sectionHeight = section.clientHeight;
-                if(scrollY >= sectionTop && scrollY < sectionTop + sectionHeight) {
-                    current = section.getAttribute('id');
-                }
-            });
-            
-            navLinks.forEach(link => {
-                link.classList.remove('active');
-                if(link.getAttribute('href') === `#${current}`) {
-                    link.classList.add('active');
-                }
-            });
-        });
+    <!-- Script de animación y personalización -->
+    <script src="./js/script.js">
+
     </script>
 </body>
 </html>
