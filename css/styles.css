@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Segoe+UI:wght@400;600&display=swap');
 
 .body {
-            padding-top: 56px; /* Para compensar la navbar fija */
+            padding-top: 56px; 
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         }
         
@@ -10,7 +10,7 @@
         }
         
         .hero-section {
-            background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+            background: linear-gradient(135deg, #e69508 0%, #0860f8 80%);
             color: white;
             padding: 100px 0;
         }
